@@ -231,7 +231,47 @@
             width: 100%;
             text-align: center;
         }
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                display: none;
+            }
 
+            /* Sections */
+            .firstSection, .section, .section2 {
+                padding: 95px 80px;
+            }
+            .places-container {
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+            }
+            .place-card {
+                width: calc(100% - 20px);
+            }
+            .place-card img {
+                height: 200px;
+            }
+            .place-info {
+                height: auto;
+            }
+
+            /* Footer */
+            .footer {
+                padding: 5px 0;
+            }
+            .text-big {
+                font-size: 30px; /* Adjusted font size for large text */
+            }
+
+            .text-mid {
+                font-size: 20px; /* Adjusted font size for medium text */
+            }
+
+            .text-small {
+                font-size: 15px; /* Adjusted font size for small text */
+            }
+
+        }
     </style>
 </head>
 <body>
